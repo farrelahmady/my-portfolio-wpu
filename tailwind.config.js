@@ -15,6 +15,9 @@ module.exports = {
 			screens: {
 				"2xl": "1320px",
 			},
+			scale: {
+				flip: "-1",
+			},
 		},
 	},
 	plugins: [],

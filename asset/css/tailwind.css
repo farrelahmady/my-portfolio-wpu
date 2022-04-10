@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.flip-vertical {
+		--transform-scale-y: -1;
+	}
+}
