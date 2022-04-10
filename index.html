@@ -33,12 +33,41 @@
 						<button
 							id="hamburger"
 							name="hamburger"
-							class="block absolute right-4"
+							class="block absolute right-4 lg:hidden"
 						>
+							<span class="hamburger-line origin-top-left"></span>
 							<span class="hamburger-line"></span>
-							<span class="hamburger-line"></span>
-							<span class="hamburger-line"></span>
+							<span class="hamburger-line origin-bottom-left"></span>
 						</button>
+
+						<nav
+							id="nav-menu"
+							class="hidden absolute py-5 bg-white shadow-lg rounded-lg right-0 top-full max-w-xs w-full lg:block lg:static lg:bg-transparent lg:shadow-none lg:max-w-full"
+						>
+							<ul class="block lg:flex">
+								<li class="group">
+									<a
+										href="#home"
+										class="text-base text-dark py-2 flex mx-8 hover:text-primary"
+										>Home</a
+									>
+								</li>
+								<li class="group">
+									<a
+										href="#about"
+										class="text-base text-dark py-2 flex mx-8 hover:text-primary"
+										>About Me</a
+									>
+								</li>
+								<li class="group">
+									<a
+										href="#portfolio"
+										class="text-base text-dark py-2 flex mx-8 hover:text-primary"
+										>Portfolio</a
+									>
+								</li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
@@ -190,6 +219,25 @@
 			</div>
 		</section>
 		<!-- Aboiut Section End -->
+
+		<!-- Portfolio Section Start -->
+		<section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+			<div class="container">
+				<div class="w-full px-4">
+					<div class="max-w-xl mx-auto text-center mb-16">
+						<h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+						<h2 class="font-bold text-3xl mb-4">Newest Project</h2>
+						<p class="">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+							eius ullam animi, libero corporis quas alias est velit dolores
+							sit?
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Portfolio Section End -->
+
 		<script src="asset/js/script.js"></script>
 	</body>
 </html>
